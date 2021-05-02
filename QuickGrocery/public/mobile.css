@@ -1,0 +1,74 @@
+/* Mobile Responsive */
+
+/*	Table of contents
+
+
+*/
+
+@media(max-width: 768px) {
+
+	header {
+		padding: 20px;
+	}
+	header #logo-name,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#features .feature,
+	#bigfooter .information,
+	#bigfooter .information h1,
+	#bigfooter .information h3,
+	#bigfooter .information p,
+	#loginRegister,
+	#loginRegister .login-area,
+	#loginRegister .register-area,
+	#user-register {
+		float: none;
+		text-align:center;
+		width: 98%;
+	}
+
+	header nav li a {
+		font-size: 13px;
+		padding: 0;
+		margin: 0;
+	}
+
+	#features .feature {
+		margin-left: 0%;
+	}
+
+	#bigfooter .information {
+		margin-left: 0%;
+	}
+
+	#features .feature p,
+	#loginRegister .register-area p {
+		width: 93%;
+	}
+
+	#slideshow h1{
+		margin-top: 40px;
+	}
+
+	#newsletter button{
+		display: block;
+		width: 100%;
+	}
+
+	#newsletter form input[type="email"]{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	#loginRegister .login-area input {
+		width: 75%;
+	}
+
+	#user-register form {
+		width: 80%;
+	}
+
+
+}

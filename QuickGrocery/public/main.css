@@ -1,0 +1,304 @@
+/* Tables of content 
+	
+	1. Global
+	2. Slideshow
+	3. Features
+	4. Footer
+	5. Login and Register land page
+	6. Registration form
+*/
+
+/* 1. Global */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #333;
+    background: #f8f8f8;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+	width: 95%;
+	margin:auto;
+	overflow: hidden;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.btnSubscribe {
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left:20px;
+	padding-right: 20px;
+	color: #ffffff; 
+}
+
+header {
+	background: white;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #1fcc00 3px solid;
+}
+
+header a {
+	color:black;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+header ul {
+	margin:0;
+	padding:0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #logo-name {
+	float: left;
+}
+
+header #logo-name .logo{
+	margin: 0;
+	width: 250px;
+	height: 50px;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a {
+	color:#e8491d;
+
+}
+
+header a:hover {
+	color: #e8491d;
+}
+
+/* 2. Slideshow */
+
+#slideshow {
+	min-height: 400px;
+	background: url('../images/background.png') no-repeat 0;
+	text-align: center;
+	color: white;
+}
+
+#slideshow h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#slideshow p {
+	font-size: 20px
+}
+
+#newsletter {
+	text-align: center;
+	padding: 0 15px 15px 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#newsletter form {
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/* 3. Features */
+
+#features {
+	margin-top: 20px;
+}
+
+#features .feature {
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 10px;
+	margin-left: 10%;
+}
+
+#features .feature img {
+	width: 200px;
+}
+
+/* 4. Footer */
+#bigfooter {
+	width: 100%;
+	background: url('../images/background.png') no-repeat 0;
+	margin: 50px 0 -20px 0;
+	padding-bottom: 20px;
+}
+
+#bigfooter .information {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	margin-left: 10%;
+}
+
+#bigfooter .information h1 {
+	color: white;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-size: 16px;
+}
+
+#bigfooter .information h3, #bigfooter .information p{
+	color: white;
+	text-align: left;
+	letter-spacing: 0.5px;
+	font-size: 16px;
+}
+
+footer {
+	padding: 20px 20px 20px 20px;
+	color: #ffffff;
+	background-color: #34424a;
+	text-align: center;
+}
+
+/* 5. Login and Register */
+
+#loginRegister {
+	width: 90%;
+	min-height: 500px;
+	background: white;
+	margin: 50px auto 0; 
+	border: 1px solid #d6d6d6;
+	border-bottom: 5px solid #cacaca;
+}
+
+#loginRegister h1 {
+	font-size: 24px;
+    letter-spacing: 1px;
+    padding: 0px 0px;
+    text-transform: uppercase;
+}
+
+#loginRegister .login-area {
+	float: left;
+	width: 40%;
+	padding: 10px;
+}
+
+#loginRegister .register-area {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	margin-right: 100px;
+}
+
+#loginRegister h3 {
+	padding-bottom: 6px;
+	border-bottom: 1px #c1c1c1 solid;
+}
+
+#loginRegister .register {
+	background-color: #e31837;
+    color: #fff;
+    border-color: #e31837;
+    padding: 8px;
+    border-right: #e31837;
+    text-transform: uppercase;
+    border-bottom: 3px rgba(97, 0, 0, 0.7) solid;
+}
+
+#loginRegister .login {
+	background: none repeat scroll 0 0 #fff;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    padding: 10px 14px 8px 14px;
+    text-transform: uppercase;
+    border: 1px #ddd solid;
+    border-radius: 3px;
+    border-bottom: 3px #ddd solid;
+    font-family: 'Rubik', sans-serif;
+}
+
+#loginRegister .login-area input {
+	background: #fff;
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    color: #404040;
+}
+
+/* 6. Registration Form */
+
+#user-register {
+	width: 50%;
+	min-height: 500px;
+	background: white;
+	margin: 50px auto 0; 
+	border: 1px solid #d6d6d6;
+	border-bottom: 5px solid #cacaca;
+}
+
+#user-register  h1 {
+	font-size: 24px;
+    letter-spacing: 1px;
+    padding: 0 0 25px 0;
+    text-transform: uppercase;
+}
+
+#user-register form  {
+	margin: 0 auto;
+    width: 50%;
+}
+
+#user-register form input {
+	background: #fff;
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+    width: 100%;
+    margin: 5px 0;
+    outline: none;
+    color: #404040;
+}
+
+#user-register form .user-register {
+	background: none repeat scroll 0 0 #fff;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    padding: 10px 14px 8px 14px;
+    text-transform: uppercase;
+    border: 1px #ddd solid;
+    border-radius: 3px;
+    border-bottom: 3px #ddd solid;
+    font-family: 'Rubik', sans-serif;
+}

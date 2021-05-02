@@ -1,0 +1,209 @@
+/* Mobile Responsive */
+
+/*	Table of contents
+
+
+*/
+
+@media(max-width: 768px) {
+
+	header {
+		padding: 20px;
+	}
+	header #logo-name,
+	header nav,
+	header nav .guest-list,
+	#newsletter h1,
+	#newsletter form,
+	#features .feature,
+	#bigfooter .information,
+	#bigfooter .information h1,
+	#bigfooter .information h3,
+	#bigfooter .information p,
+	#loginRegister,
+	#loginRegister .login-area,
+	#loginRegister .register-area,
+	#user-register,
+	#inner-header-location .inner-header-title,
+	#inner-header-location .inner-header-cart,
+	#inner-header-location .inner-header-location{
+		float: none;
+		text-align:center;
+		width: 98%;
+	}
+
+	header ul {
+		margin: 0;
+		padding: 0;
+	}
+	header nav li a {
+		font-size: 13px;
+		padding: 0;
+		margin: 0;
+	}
+
+	header li {
+		padding: 0;
+	}
+
+	#features .feature {
+		margin-left: 0%;
+	}
+
+	#bigfooter .information {
+		margin-left: 0%;
+	}
+
+	#features .feature p,
+	#loginRegister .register-area p {
+		width: 93%;
+	}
+
+	#slideshow h1{
+		margin-top: 40px;
+	}
+
+	#newsletter button{
+		display: block;
+		width: 100%;
+	}
+
+	#newsletter form input[type="email"]{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	#loginRegister .login-area input {
+		width: 75%;
+	}
+
+	#user-register form {
+		width: 80%;
+	}
+
+	.lostPassword {
+		margin-top: 5px;
+		display: block;
+	}
+
+	.inner-header-location-input {
+		width: 250px;
+
+	}
+
+	#inner-header-location .inner-header-location, #inner-header-location .inner-header-cart{
+		padding: 0 0 20px 0;
+	}
+
+	.inner-header-cart .totalqty {
+		left: 185px;
+	}
+
+	#user-dashboard {
+		width: 100%;
+		margin: auto;
+		padding: 40px 0 40px 0;
+	}
+
+	.user-dashboard-sidebar, .checkout-billing, .checkout-payment-method, .checkout-coupon {
+		width: 100%;
+	}
+
+	.user-dashboard-content {
+		width: 100%;
+		padding: 0 0 20px 0;
+	}
+
+	.user-dashboard-content-title {
+		width: 100%;
+		margin: 0;
+	}
+
+	.navbar-dropdown ul {
+		margin: 10px -10px;
+		padding:0;
+	}
+
+	.dropdown-item-list{
+        display: none;
+		margin: auto 0;
+		background-color: #333;
+	}
+
+	.cart-modal {
+		width: 300px;
+	}
+
+	.location-content-card {
+		width: 50%;
+	}
+
+    #header-list, #header-guest {
+        width: 100%;
+        margin-top: 15px;
+    }
+    #header-guest div{
+        text-align: center;
+    }
+
+    .user-dropdown, .notification-dropdown {
+        width: 50% !important;
+    }
+
+    .user-dropdown ul li ul, .notification-dropdown ul li ul {
+        margin-top: 5px;
+    }
+
+    .checkout-footer {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .checkout-body{
+        width: 100%;
+    }
+
+    .location-content-store-footer a {
+        font-size: 0.5rem;
+    }
+
+    .shopping-input {
+        border-radius: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .shopping-button {
+        border-radius: 0 !important;
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .systemadmin-sidebar, .store-sidebar {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .systemadmin-sidebar-content, .store-sidebar-content {
+        width: 95% !important;
+        margin: 30px 15px 30px 30px!important;
+    }
+
+    .systemadmin-content-body, .store-content-body {
+        overflow-x: auto;
+    }
+
+    .systemadmin-content-body .row input, .store-content-body .row input{
+        width: 50% !important;
+    }
+
+    .modal-content {
+        width: 90% !important;
+    }
+
+    .modal-content .row div{
+        width: 90% !important;
+    }
+    
+}
